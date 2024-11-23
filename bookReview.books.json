@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "673e0fb4e4857630878108f0"
+  },
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "description": "A novel about the serious issues of rape and racial inequality told through the eyes of young Scout Finch.",
+  "ratings": 4.8,
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "673e0fb4e4857630878108f1"
+  },
+  "title": "1984",
+  "author": "George Orwell",
+  "description": "A dystopian social science fiction novel and cautionary tale about the future.",
+  "ratings": 4.7,
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "673e0fb4e4857630878108f2"
+  },
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "description": "A romantic novel that critiques the British landed gentry at the end of the 18th century.",
+  "ratings": 4.5,
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "673e0fb4e4857630878108f3"
+  },
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "description": "A story about the Jazz Age and the American Dream.",
+  "ratings": 4.4,
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "673e0fb4e4857630878108f4"
+  },
+  "title": "Moby Dick",
+  "author": "Herman Melville",
+  "description": "An epic tale of obsession and revenge between Captain Ahab and the white whale, Moby Dick.",
+  "ratings": 4.3,
+  "reviews": []
+}]

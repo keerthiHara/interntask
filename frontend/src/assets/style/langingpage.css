@@ -1,0 +1,71 @@
+/* Background of the Landing Page */
+.bg {
+    margin: -130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../image/bookbg.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  /* Glassmorphism effect on the landing page content */
+  .lp {
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    min-height: 200px;
+    color: white;
+  }
+  
+  /* Headline styling */
+  .lp h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph styling */
+  .lp p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styling */
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .action-btn {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .action-btn:hover {
+    background-color: rgba(0, 123, 255, 1);
+  }
+  
+  .action-btn:focus {
+    outline: none;
+  }
+  
+  /* Optional: Add some padding to the body to ensure the content is not hidden behind fixed elements like the navbar */
+  body {
+    padding-top: 70px;
+  }
+  

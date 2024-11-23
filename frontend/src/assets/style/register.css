@@ -1,0 +1,85 @@
+r1{
+    width: 70;
+    height: 300px;
+    background-color: antiquewhite;
+}
+/* Set up the general background and layout */
+.r {
+    background: url('../image/bookbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    margin:-130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .r1 {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .r2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); /* The Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    width: 300px;
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    outline: none;
+  }
+  
+  .submit-btn {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: rgba(0, 123, 255, 1);
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+  }
+  

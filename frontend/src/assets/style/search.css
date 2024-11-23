@@ -1,0 +1,29 @@
+.filter1{ margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 7px;
+    gap: 47px;
+    padding: 0px 20px;
+}
+select{
+    height: 30px;
+    border-radius: 20px;
+}
+label{
+    color: aliceblue;
+    padding:10px 10px;
+}
+.f1{
+    padding: 10px 30px;
+}
+.f2{margin-top: -144px;
+    background: rgb(10,1,17);
+background: linear-gradient(90deg, rgba(10,1,17,1) 6%, rgba(133,67,16,1) 74%, rgba(215,179,128,1) 100%);
+}
+.f3{
+    padding: 120px 0px;
+}
+h1{
+    color: aliceblue;
+}
